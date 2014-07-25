@@ -6,6 +6,7 @@ It's a long term work.
 
 * item cf (item based collaborative filtering)
     *  different similarity measurements (cosine, L2-distance, Jacard, Pearson)
+    *  item popularity and freshness
 
 * user cf
     *  user-user similarity calculation
@@ -20,13 +21,14 @@ It's a long term work.
     *  svd++
 
 * keyword/topic based methods
-    *  combination of keywords, like N-gram of words
-    *  bayesian inference of p(topic|user) and topic popularity
+    *  variable combinations of keywords, like N-gram
+    *  Bayesian inference of p(topic|user) and topic popularities
 
 * SNS based methods
 
-    *  friend cf (like user cf)
-    *  recommend users based on friendship and click data
+    *  friend cf (user-friend relationships instead of user-user similarities in user cf)
+
+* LBS based methods
 
 * recommend users to users
     *  [EdgeRank](http://edgerank.net/)
