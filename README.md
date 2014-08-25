@@ -30,6 +30,10 @@ It's a long term work.
 
 * LBS based methods
 
+* Context-aware recommendation 
+    *  sequential pattern based prediction
+    *  relevant item based recommendation (keyword / item cf / topic)
+
 * recommend users to users
     *  [EdgeRank](http://edgerank.net/)
     *  [Twitter's algorithm](http://blog.csdn.net/lzt1983/article/details/8755149)
