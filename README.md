@@ -13,9 +13,6 @@ It's a long term work.
     *  `topic constrained user cf`  (for news recommendation)
     *  `expert cf` (firstly detect domain experts, and rec items to users based on similar experts) 
 
-* random walk
-    *  transition matrix
-
 * factorization machines
     *  svd
     *  svd++
@@ -24,27 +21,31 @@ It's a long term work.
     *  variable combinations of keywords, like N-gram
     *  Bayesian inference of p(topic|user) and topic popularities
 
-* SNS based methods
+* random walk
+    *  transition matrix
 
-    *  friend cf (user-friend relationships instead of user-user similarities in user cf)
+* SNS based methods
+    *  `friend cf` (user-friend relationships instead of user-user similarities in user cf)
 
 * LBS based methods
-
-* Context-aware recommendation 
-    *  sequential pattern based prediction
-    *  relevant item based recommendation (keyword / item cf / topic)
+    *  local hot
 
 * recommend users to users
     *  [EdgeRank](http://edgerank.net/)
     *  [Twitter's algorithm](http://blog.csdn.net/lzt1983/article/details/8755149)
 
+* context-aware recommendation 
+    *  relevant items based recommendation (keyword / item cf / topic)
+    *  sequential pattern based prediction
+    *  learning using context of user choise
+
 * merging
-    *  blending (weights of algorithms, weights of items of algorithms, user feedback)
-    *  ensemble methods (LR, RBM, tree based methods)
+    *  `blending` (weights of algorithms, weights of items of algorithms, user feedback)
+    *  `ensemble` methods (LR, RBM, tree based methods)
 
 * evaluation
-    *  metrics (MAP, NDCG, ab-testing...)
-    *  how to define asuccessful recommendation system? (CTR, percent conversion, user active degree, long tail item exploration) 
+    *  offline metrics (MAP, NDCG, AUC, ...)
+    *  online metrics (CTR, percent conversion, user active degree, long tail item exploration) 
 
 
 ## Preferences:
