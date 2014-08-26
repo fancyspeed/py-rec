@@ -37,7 +37,7 @@ It's a long term work.
 * context-aware recommendation 
     *  relevant items based recommendation (keyword / item cf / topic)
     *  sequential pattern based prediction
-    *  learning using context of user choise
+    *  [learning using context of user choise](http://www.eeshyang.com/papers/SIGIR11CCF.pdf)
 
 * merging
     *  `blending` (weights of algorithms, weights of items of algorithms, user feedback)
