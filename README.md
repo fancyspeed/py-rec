@@ -30,21 +30,39 @@ It's a long term work.
 * LBS based methods
     *  local hot
 
+* demographic based motheds
+    *  demographic prediction
+
+* context-aware recommendation 
+    *  tensor factorization
+    *  sequential pattern based prediction
+    *  [learning using context of user choise](http://www.eeshyang.com/papers/SIGIR11CCF.pdf)
+
+* recommend items to items
+    *  item cf
+    *  keyword, topic based methods
+    *  personalized relevance model
+
 * recommend users to users
     *  [EdgeRank](http://edgerank.net/)
     *  [Twitter's algorithm](http://blog.csdn.net/lzt1983/article/details/8755149)
 
-* context-aware recommendation 
-    *  relevant items based recommendation (keyword / item cf / topic)
-    *  sequential pattern based prediction
-    *  [learning using context of user choise](http://www.eeshyang.com/papers/SIGIR11CCF.pdf)
-
 * merging
     *  `blending` (weights of algorithms, weights of items of algorithms, user feedback)
     *  `ensemble` methods (LR, RBM, tree based methods)
+    *  switching
+    *  multi-level model
+
+* challenges
+    *  page optimization: by explantion, by method, clustering (k-means, AP clustering, HDP)
+    *  long-term interest vs. short-term action
+    *  exploitation vs. exploration: multi-armed bandits 
+    *  accurate vs. diverse
+    *  freshness vs. stability
+    *  navigation vs. attention
 
 * evaluation
-    *  offline metrics (MAP, NDCG, AUC, ...)
+    *  offline metrics (MAP, NDCG, AUC, diversity...)
     *  online metrics (CTR, percent conversion, user active degree, long tail item exploration) 
 
 
