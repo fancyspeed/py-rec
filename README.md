@@ -30,8 +30,9 @@ It's a long term work.
 * LBS based methods
     *  local hot
 
-* demographic based motheds
+* demographic based methods
     *  demographic prediction
+    *  demographic segmentation and segment cf
 
 * context-aware recommendation 
     *  tensor factorization
