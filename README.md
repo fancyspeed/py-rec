@@ -43,6 +43,7 @@ It's a long term work.
     *  item cf
     *  keyword, topic based methods
     *  personalized relevance model
+    *  recommend products by similar images
 
 * recommend users to users
     *  [EdgeRank](http://edgerank.net/)
