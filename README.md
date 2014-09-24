@@ -34,13 +34,18 @@ It's a long term work.
     *  demographic prediction
     *  demographic segmentation and segment cf
 
+* other methods
+    *  top list rec
+    *  editor's choise 
+    *  commodity consumption cycle
+
 * context-aware recommendation 
     *  tensor factorization
     *  sequential pattern based prediction
     *  [learning using context of user choise](http://www.eeshyang.com/papers/SIGIR11CCF.pdf)
 
 * recommend items to items
-    *  item cf
+    *  click cooccurence
     *  keyword, topic based methods
     *  personalized relevance model
     *  recommend products by similar images
@@ -56,7 +61,7 @@ It's a long term work.
     *  multi-level model
 
 * challenges
-    *  page optimization: by explantion, by method, clustering (k-means, AP clustering, HDP)
+    *  page optimization: by explanation, by method, clustering (k-means, AP clustering, HDP)
     *  long-term interest vs. short-term action
     *  exploitation vs. exploration: multi-armed bandits 
     *  accurate vs. diverse
