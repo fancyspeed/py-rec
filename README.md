@@ -14,8 +14,8 @@ It's a long term work.
     *  `expert cf` (firstly detect domain experts, and rec items to users based on similar experts) 
 
 * factorization machines
-    *  svd
     *  svd++
+    *  libfm
 
 * keyword/topic based methods
     *  variable combinations of keywords, like N-gram
@@ -28,7 +28,7 @@ It's a long term work.
     *  `friend cf` (user-friend relationships instead of user-user similarities in user cf)
 
 * LBS based methods
-    *  local hot
+    *  local hot reranking
 
 * demographic based methods
     *  demographic prediction
@@ -51,7 +51,7 @@ It's a long term work.
 
 * merging
     *  `blending` (weights of algorithms, weights of items of algorithms, user feedback)
-    *  `ensemble` methods (LR, RBM, tree based methods)
+    *  `ensemble` methods (LR, RBM, GBM, random forest)
     *  switching
     *  multi-level model
 
@@ -76,3 +76,4 @@ It's a long term work.
 * http://blog.csdn.net/lzt1983/article/details/7696578
 * http://blog.csdn.net/lzt1983/article/details/7914536
 * http://blog.csdn.net/bornhe/article/details/7425609
+
