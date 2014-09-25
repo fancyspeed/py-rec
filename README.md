@@ -1,7 +1,5 @@
 Algorithms for recommender systems.
 
-It's a long term work.
-
 ## TODO list:
 
 * item cf (item based collaborative filtering)
@@ -31,21 +29,20 @@ It's a long term work.
     *  local hot reranking
 
 * demographic based methods
-    *  demographic prediction
-    *  demographic segmentation and segment cf
+    *  rec by demographic segmentation
 
-* other methods
-    *  top list rec
-    *  editor's choise 
-    *  commodity consumption cycle
-
-* context-aware recommendation 
+* context-aware methods 
     *  tensor factorization
     *  sequential pattern based prediction
     *  [learning using context of user choise](http://www.eeshyang.com/papers/SIGIR11CCF.pdf)
 
+* other methods
+    *  editor's choise 
+    *  rec by top list
+    *  rec by commodity consumption cycle
+
 * recommend items to items
-    *  click cooccurence
+    *  click cooccurence based methods
     *  keyword, topic based methods
     *  personalized relevance model
     *  recommend products by similar images
@@ -56,9 +53,13 @@ It's a long term work.
 
 * merging
     *  `blending` (weights of algorithms, weights of items of algorithms, user feedback)
-    *  `ensemble` methods (LR, RBM, GBM, random forest)
-    *  switching
-    *  multi-level model
+    *  `ensemble` (LR, RBM, GBM, random forest)
+    *  switching (switch methods by context)
+    *  cascading (multi-level model)
+
+* evaluation
+    *  offline metrics (MAP, NDCG, AUC, diversity...)
+    *  online metrics (CTR, percent conversion, user active degree, long tail item exploration) 
 
 * challenges
     *  page optimization: by explanation, by method, clustering (k-means, AP clustering, HDP)
@@ -67,10 +68,6 @@ It's a long term work.
     *  accurate vs. diverse
     *  freshness vs. stability
     *  navigation vs. attention
-
-* evaluation
-    *  offline metrics (MAP, NDCG, AUC, diversity...)
-    *  online metrics (CTR, percent conversion, user active degree, long tail item exploration) 
 
 
 ## Preferences:
