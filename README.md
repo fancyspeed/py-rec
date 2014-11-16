@@ -23,7 +23,7 @@ Algorithms for recommender systems.
     *  transition matrix
 
 * SNS based methods
-    *  `friend cf` (user-friend relationships instead of user-user similarities in user cf)
+    *  `trust cf` (user-friend relationships instead of user-user similarities in user cf)
 
 * LBS based methods
     *  local hot reranking
@@ -58,7 +58,7 @@ Algorithms for recommender systems.
     *  cascading (multi-level model)
 
 * evaluation
-    *  offline metrics (MAP, NDCG, AUC, diversity...)
+    *  offline metrics (MAP, nDCG, AUC, diversity...)
     *  online metrics (CTR, percent conversion, user active degree, long tail item exploration) 
 
 * challenges
